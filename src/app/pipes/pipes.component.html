@@ -1,0 +1,36 @@
+<h2>Uppercase y Lowercase</h2>
+<p>{{name | uppercase}}</p>
+<p>{{name2 | lowercase}}</p>
+
+
+<h2>Slice</h2>
+<p>{{name | slice:2}}</p>
+<p>{{name2 | slice:0:2}}</p>
+
+
+<h2>Decimal</h2>
+<p>{{valorE | number:'1.0-2'}}</p>
+
+
+<h2>Percent</h2>
+<p>{{myNum | percent}}</p>
+<p>{{myNum | percent: '1.0-2'}}</p>
+
+
+<h2>Currency</h2>
+<p>{{salary | currency}}</p>
+<p>{{salary | currency: 'currencyCharacter':'€'}}</p>
+
+
+<h2>JSON</h2>
+<p>{{personaje | json}}</p>
+
+
+<h2>Async//Promises</h2>
+<pre>{{promiseValue | async}}</pre>
+
+
+<h2>Date</h2>
+<p>{{fechaActual}}</p>
+<p>{{fechaActual |date}}</p>
+<pre>{{fechaActual | date: 'EEE, d of LLL of yyyy'}}</pre>
